@@ -1,5 +1,14 @@
-import '@/styles/globals.css'
+import RoomProvider from "@/context/RoomContext";
+import Navbar from "@/components/Navbar";
+import "@/styles/globals.css";
 
-export default function App({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps }) {
+  return (
+    <RoomProvider>
+      <Navbar />
+      <Component {...pageProps} />
+    </RoomProvider>
+  );
 }
+
+export default MyApp;
