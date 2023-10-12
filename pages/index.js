@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
-import Rooms from "./Rooms";
+
 import { Inter } from "next/font/google";
 import Head from "next/head";
+import Rooms from "./Rooms";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,6 @@ export default function Home() {
         heading="MAF VILLAGE"
         message="Adoptez les traditions sereines au coeur de Maferinya."
       />
-
       <Rooms />
     </div>
   );

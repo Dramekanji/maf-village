@@ -16,3 +16,50 @@ body {
   background-image: url("../public/images/hut-bg.jpeg");
   background-color: black;
 }
+
+.btn {
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white; /* Corrected line */
+  flex: 1;
+  transition: all;
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-sm {
+  height: 48px;
+}
+
+.btn-lg {
+  height: 60px;
+}
+
+.btn-primary {
+  background-color: #a37d4c;
+}
+
+.btn-primary:hover {
+  background-color: #967142;
+}
+
+.btn-secondary {
+  background-color: #0a0a0a;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #ffd700;
+}
+
+.btn-white {
+  background-color: white;
+  color: #0a0a0a;
+}
+
+.max-w-2xl {
+  max-width: 47rem; /* Adjust the value to your desired width */
+}
