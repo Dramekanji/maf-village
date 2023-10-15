@@ -1,20 +1,20 @@
 // rooms images
-import Room1Img from "../public/images/rooms/1.png";
-import Room1ImgLg from "../public/images/rooms/1-lg.png";
-import Room2Img from "../public/images/rooms/2.png";
-import Room2ImgLg from "../public/images/rooms/2-lg.png";
-import Room3Img from "../public/images/rooms/3.png";
-import Room3ImgLg from "../public/images/rooms/3-lg.png";
-import Room4Img from "../public/images/rooms/4.png";
-import Room4ImgLg from "../public/images/rooms/4-lg.png";
-import Room5Img from "../public/images/rooms/5.png";
-import Room5ImgLg from "../public/images/rooms/5-lg.png";
-import Room6Img from "../public/images/rooms/6.png";
-import Room6ImgLg from "../public/images/rooms/6-lg.png";
-import Room7Img from "../public/images/rooms/7.png";
-import Room7ImgLg from "../public/images/rooms/7-lg.png";
-import Room8Img from "../public/images/rooms/8.png";
-import Room8ImgLg from "../public/images/rooms/8-lg.png";
+import Room1Img from "./public/images/rooms/1.png";
+import Room1ImgLg from "./public/images/rooms/1-lg.png";
+import Room2Img from "./public/images/rooms/2.png";
+import Room2ImgLg from "./public/images/rooms/2-lg.png";
+import Room3Img from "./public/images/rooms/3.png";
+import Room3ImgLg from "./public/images/rooms/3-lg.png";
+import Room4Img from "./public/images/rooms/4.png";
+import Room4ImgLg from "./public/images/rooms/4-lg.png";
+import Room5Img from "./public/images/rooms/5.png";
+import Room5ImgLg from "./public/images/rooms/5-lg.png";
+import Room6Img from "./public/images/rooms/6.png";
+import Room6ImgLg from "./public/images/rooms/6-lg.png";
+import Room7Img from "./public/images/rooms/7.png";
+import Room7ImgLg from "./public/images/rooms/7-lg.png";
+import Room8Img from "./public/images/rooms/8.png";
+import Room8ImgLg from "./public/images/rooms/8-lg.png";
 // import icons
 import {
   FaWifi,

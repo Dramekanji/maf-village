@@ -6,7 +6,7 @@ html,
 body {
   scroll-behavior: smooth;
   font-family: "Barlow Condensed", sans-serif;
-  background-color: #fff;
+  background-color: #deb887;
   color: #fff;
   margin: 0;
   padding: 0;
@@ -28,6 +28,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;
 }
 
 .btn-sm {
@@ -62,4 +72,8 @@ body {
 
 .max-w-2xl {
   max-width: 47rem; /* Adjust the value to your desired width */
+}
+
+.custom-max-width {
+  max-width: 1150px;
 }

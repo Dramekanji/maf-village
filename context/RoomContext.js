@@ -1,31 +1,45 @@
-import React, { useContext, useState, useEffect, createContext } from "react";
-
-import { roomData } from "../components/RoomData";
+import React, { useContext, createContext, useState } from "react";
+import { useRouter } from "next/router"; // Import the useRouter hook
+import { roomData } from "@/RoomData";
 
 export const RoomContext = createContext();
 
 const RoomProvider = ({ children }) => {
-  const [rooms, setRooms] = useState(roomData);
   const [adults, setAdults] = useState("1 Adult");
   const [kids, setKids] = useState("0 Children");
-  const [total, setTotal] = useState(0);
+  const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setTotal(Number(adults[0]) + Number(kids[0]));
-  });
+  const router = useRouter(); // Initialize the router
 
-  const handleClick = (e) => {
+  const handleClick = (e, id) => {
     e.preventDefault();
+    setLoading(true);
 
-    const newRooms = roomData.filter((room) => {
-      return total <= room.maxPerson;
-    });
-    setRooms(newRooms);
+    // Filter the rooms based on total persons
+    const total = parseInt(adults) + parseInt(kids);
+    const newRooms = roomData.filter((room) => total <= room.maxPerson);
+
+    setTimeout(() => {
+      // Set the filtered rooms in the query parameter and redirect to the "Rooms" page
+      router.push({
+        pathname: "/Rooms",
+        query: { rooms: JSON.stringify(newRooms) },
+      });
+      setLoading(false);
+    }, 3000);
   };
-  console.log(rooms);
+  console.log("roomData in RoomProvider:", roomData);
   return (
     <RoomContext.Provider
-      value={{ rooms, adults, setAdults, kids, setKids, handleClick }}
+      value={{
+        adults,
+        setAdults,
+        kids,
+        setKids,
+        handleClick,
+        roomData,
+        loading,
+      }}
     >
       {children}
     </RoomContext.Provider>

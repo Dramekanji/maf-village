@@ -14,14 +14,21 @@ const Navbar = () => {
   useEffect(() => {
     const changeColor = () => {
       if (window.scrollY >= 90) {
-        setColor("#fff");
-        setTextColor("#000");
-      } else {
         setColor("#FFEBCD");
         setTextColor("#D2B48C");
+      } else {
+        // Reset to transparent and white when scrolling up
+        setColor("transparent");
+        setTextColor("white");
       }
     };
+
     window.addEventListener("scroll", changeColor);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", changeColor);
+    };
   }, []);
 
   return (
@@ -42,7 +49,7 @@ const Navbar = () => {
               <Link href="/">Accueil</Link>
             </li>
             <li className="p-4 font-bold uppercase hover:text-yellow-500 ease-in duration-300">
-              <Link href="/Rooms">Chambres</Link>
+              <Link href="/MafRooms">Chambres</Link>
             </li>
           </ul>
         </div>
@@ -52,7 +59,7 @@ const Navbar = () => {
           <div className="flex items-center cursor-pointer">
             <Image
               src="/images/maf-logo.png"
-              alt="Your Logo"
+              alt="Maf Logo"
               width={100}
               height={50}
             />
@@ -103,7 +110,7 @@ const Navbar = () => {
               onClick={handleNav}
               className="p-4 text-4xl hover:text-yellow-500 ease-in duration-300"
             >
-              <Link href="/Rooms">Chambres</Link>
+              <Link href="/MafRooms">Chambres</Link>
             </li>
             <li
               onClick={handleNav}
