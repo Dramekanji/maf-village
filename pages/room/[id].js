@@ -47,7 +47,7 @@ const RoomDetails = () => {
         {/* overlay */}
         <div className="absolute w-full h-full bg-black/70"></div>
         {/* title */}
-        <h1 className="text-6xl z-20 font-primary text-center">
+        <h1 className="text-6xl z-10 font-primary text-center">
           {name} Details
         </h1>
       </div>
