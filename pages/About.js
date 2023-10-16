@@ -9,8 +9,11 @@ const About = () => {
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/70"></div>
         {/* Title */}
-        <h1 className="text-6xl z-10 font-primary text-center text-white">
-          Decouvrez Maf Village
+        <h1
+          className="text-6xl z-10 font-primary text-center text-white sm:text-5xl md:text-6xl"
+          style={{ whiteSpace: "pre-line" }}
+        >
+          Decouvrez{"\n"}Maf Village
         </h1>
       </div>
       <div className="container mx-auto p-6">
