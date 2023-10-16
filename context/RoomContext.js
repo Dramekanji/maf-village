@@ -5,8 +5,8 @@ import { roomData } from "@/RoomData";
 export const RoomContext = createContext();
 
 const RoomProvider = ({ children }) => {
-  const [adults, setAdults] = useState("1 Adult");
-  const [kids, setKids] = useState("0 Children");
+  const [adults, setAdults] = useState("1 Adulte");
+  const [kids, setKids] = useState("0 Enfant");
   const [loading, setLoading] = useState(false);
 
   const router = useRouter(); // Initialize the router
@@ -28,7 +28,7 @@ const RoomProvider = ({ children }) => {
       setLoading(false);
     }, 3000);
   };
-  console.log("roomData in RoomProvider:", roomData);
+  // console.log("roomData in RoomProvider:", roomData);
   return (
     <RoomContext.Provider
       value={{

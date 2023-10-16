@@ -32,6 +32,9 @@ module.exports = {
       },
       backgroundImage: {
         room: 'url("../public/images/room.jpg")',
+        about: 'url("../public/images/about.jpeg")',
+        pool: 'url("../public/images/pool2.jpeg")',
+        rooms: 'url("../public/images/rooms.jpeg")',
       },
     },
   },

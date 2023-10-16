@@ -4,11 +4,11 @@ import { Menu } from "@headlessui/react";
 import { BsChevronBarDown } from "react-icons/bs";
 
 const lis = [
-  { name: "0 Children" },
-  { name: "1 Child" },
-  { name: "2 Children" },
-  { name: "3 Children" },
-  { name: "4 Children" },
+  { name: "0 Enfant" },
+  { name: "1 Enfant" },
+  { name: "2 Enfants" },
+  { name: "3 Enfants" },
+  { name: "4 Enfants" },
 ];
 
 const KidsDropdown = () => {
