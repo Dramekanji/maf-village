@@ -9,7 +9,7 @@ const About = () => {
         {/* Overlay */}
         <div className="absolute w-full h-full bg-black/70"></div>
         {/* Title */}
-        <h1 className="text-6xl z-20 font-primary text-center text-white">
+        <h1 className="text-6xl z-10 font-primary text-center text-white">
           Decouvrez Maf Village
         </h1>
       </div>
