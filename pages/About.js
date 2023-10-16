@@ -18,18 +18,21 @@ const About = () => {
           Bienvenue à Maf Village
         </h2>
         <p className="text-lg mb-8">
-          À Maf Village, nous sommes fiers de créer des souvenirs et des
-          expériences inoubliables pour nos clients. Dès votre arrivée, vous
-          serez plongé dans une atmosphère de luxe, de détente et d'aventure.
-          Nos environs naturels immaculés, nos équipements de classe mondiale et
-          notre service exceptionnel se combineront pour rendre votre séjour
-          vraiment remarquable. Que vous savouriez une cuisine exquise préparée
-          par nos talentueux chefs, que vous vous lanciez dans des aventures
+          {/* eslint-disable react/no-unescaped-entities */}À Maf Village, nous
+          sommes fiers de créer des souvenirs et des expériences inoubliables
+          pour nos clients. Dès votre arrivée, vous serez plongé dans une
+          atmosphère de luxe, de détente et d'aventure. Nos environs naturels
+          immaculés, nos équipements de classe mondiale et notre service
+          exceptionnel se combineront pour rendre votre séjour vraiment
+          remarquable. Que vous savouriez une cuisine exquise préparée par nos
+          talentueux chefs, que vous vous lanciez dans des aventures
           passionnantes ou que vous vous relaxiez simplement dans le calme
           absolu, chaque instant ici est conçu pour laisser une impression
           durable.
+          {/* eslint-enable react/no-unescaped-entities */}
         </p>
         <p className="text-lg mb-8">
+          {/* eslint-disable react/no-unescaped-entities */}
           Notre équipe dévouée de professionnels s'engage à aller au-delà pour
           s'assurer que votre visite est rien de moins qu'extraordinaire. Des
           services de conciergerie personnalisés aux activités et excursions
@@ -39,35 +42,41 @@ const About = () => {
           également des souvenirs chéris qui resteront avec vous toute votre
           vie. Votre temps avec nous n'est pas seulement des vacances ; c'est un
           voyage inoubliable de découverte et de délice.
+          {/* eslint-enable react/no-unescaped-entities */}
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
           <div>
             <h3 className="text-2xl font-primary mb-4">Notre Mission</h3>
             <p className="text-lg">
+              {/* eslint-disable react/no-unescaped-entities */}
               Notre mission est de fournir à nos clients une expérience
               inoubliable, offrant le mélange parfait de détente, d'aventure et
               de luxe. Nous nous engageons à garantir que votre séjour soit
               rempli de merveilleux souvenirs qui dureront toute une vie.
+              {/* eslint-enable react/no-unescaped-entities */}
             </p>
           </div>
           <div>
             <h3 className="text-2xl font-primary mb-4">Notre Vision</h3>
             <p className="text-lg">
+              {/* eslint-disable react/no-unescaped-entities */}
               Notre vision est de devenir complexe touristique le mieux notée,
               reconnue pour son service exceptionnel, son environnement naturel
               époustouflant et ses équipements de classe mondiale. Nous visons à
               créer un havre de confort et de tranquillité pour tous nos
-              clients.
+              clients.{/* eslint-enable react/no-unescaped-entities */}
             </p>
           </div>
         </div>
         <h2 className="text-4xl font-primary mt-12 mb-6">Notre Equipe</h2>
         <p className="text-lg mb-8">
+          {/* eslint-disable react/no-unescaped-entities */}
           Notre équipe dévouée de professionnels est là pour s'assurer que votre
           séjour est synonyme de perfection. De nos chefs qui préparent une
           cuisine exquise à notre équipe de conciergerie prête à vous assister
           pour toute demande, chaque membre de notre personnel s'engage à rendre
           votre visite extraordinaire.
+          {/* eslint-enable react/no-unescaped-entities */}
         </p>
         <h2 className="text-4xl font-primary mt-12 mb-6">Gallery</h2>
         {/* Add image gallery here */}

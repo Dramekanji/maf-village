@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto flex justify-between">
         {/* logo */}
         <Link href="/">
-          <img
+          <Image
             src="/images/maf-logo.png"
             alt="Maf Logo"
             width={100}

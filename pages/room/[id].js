@@ -69,12 +69,14 @@ const RoomDetails = () => {
               <div className="mt-12">
                 <h3 className="h3 mb-3">Room Facilities</h3>
                 <p className="mb-12">
+                  {/* eslint-disable react/no-unescaped-entities */}
                   "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
                   placeat eos sed voluptas unde veniam eligendi a. Quaerat
                   molestiae hic omnis temporibus quos consequuntur nam
                   voluptatum ea accusamus, corrupti nostrum eum placeat
                   quibusdam quis beatae quae labore earum architecto aliquid
                   debitis."
+                  {/* eslint-enable react/no-unescaped-entities */}
                 </p>
                 {/* grid */}
                 <div className="grid grid-cols-3 gap-3 mb-12">
