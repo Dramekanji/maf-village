@@ -58,9 +58,9 @@ const Navbar = () => {
         <Link href="/">
           <div className="flex items-center cursor-pointer">
             <Image
-              src="/images/maf-logo.png"
+              src="/images/mariador.png"
               alt="Maf Logo"
-              width={100}
+              width={200}
               height={50}
             />
           </div>

@@ -9,9 +9,9 @@ const Footer = () => {
         {/* logo */}
         <Link href="/">
           <Image
-            src="/images/maf-logo.png"
-            alt="Maf Logo"
-            width={100}
+            src="/images/mariador.png"
+            alt="Mariador Logo"
+            width={150}
             height={50}
           />
         </Link>
