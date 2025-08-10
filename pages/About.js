@@ -13,20 +13,18 @@ const About = () => {
           className="text-6xl z-10 font-primary text-center text-white sm:text-5xl md:text-6xl"
           style={{ whiteSpace: "pre-line" }}
         >
-          Decouvrez{"\n"}Hotel Mariador Park
+          Decouvrez{"\n"}Hotel
         </h1>
       </div>
       <div className="container mx-auto p-6">
-        <h2 className="text-4xl font-primary mt-12 mb-6">
-          Bienvenue à Hotel Mariador Park
-        </h2>
+        <h2 className="text-4xl font-primary mt-12 mb-6">Bienvenue à Hotel</h2>
         <p className="text-lg mb-8">
-          {/* eslint-disable react/no-unescaped-entities */}À Hotel Mariador
-          Park, nous sommes fiers de créer des souvenirs et des expériences
-          inoubliables pour nos clients. Dès votre arrivée, vous serez plongé
-          dans une atmosphère de luxe, de détente et d'aventure. Nos environs
-          naturels immaculés, nos équipements de classe mondiale et notre
-          service exceptionnel se combineront pour rendre votre séjour vraiment
+          {/* eslint-disable react/no-unescaped-entities */}À Hotel , nous
+          sommes fiers de créer des souvenirs et des expériences inoubliables
+          pour nos clients. Dès votre arrivée, vous serez plongé dans une
+          atmosphère de luxe, de détente et d'aventure. Nos environs naturels
+          immaculés, nos équipements de classe mondiale et notre service
+          exceptionnel se combineront pour rendre votre séjour vraiment
           remarquable. Que vous savouriez une cuisine exquise préparée par nos
           talentueux chefs, que vous vous lanciez dans des aventures
           passionnantes ou que vous vous relaxiez simplement dans le calme

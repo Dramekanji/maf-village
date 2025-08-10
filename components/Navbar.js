@@ -57,12 +57,12 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/">
           <div className="flex items-center cursor-pointer">
-            <Image
+            {/* <Image
               src="/images/mariador.png"
               alt="Maf Logo"
               width={200}
               height={50}
-            />
+            /> */}
           </div>
         </Link>
 
